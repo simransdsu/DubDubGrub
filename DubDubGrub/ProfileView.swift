@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SwiftUIView.swift
 //  DubDubGrub
 //
 //  Created by Simran Preet Narang on 2022-07-07.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ProfileView: View {
     var body: some View {
-        AppTabView()
+        Text("Profile View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ProfileView()
     }
 }

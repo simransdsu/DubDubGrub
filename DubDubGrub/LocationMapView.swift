@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LocationMapView.swift
 //  DubDubGrub
 //
 //  Created by Simran Preet Narang on 2022-07-07.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LocationMapView: View {
     var body: some View {
-        AppTabView()
+        Text("Location Map View")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LocationMapView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LocationMapView()
     }
 }

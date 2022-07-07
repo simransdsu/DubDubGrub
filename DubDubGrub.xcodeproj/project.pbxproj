@@ -12,6 +12,11 @@
 		49CB10B12877A4730005BC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CB10B02877A4730005BC71 /* Assets.xcassets */; };
 		49CB10B42877A4730005BC71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CB10B32877A4730005BC71 /* Preview Assets.xcassets */; };
 		49CB10BD2877A5B50005BC71 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CB10BC2877A5B50005BC71 /* CloudKit.framework */; };
+		49CB10BF2877A7A50005BC71 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB10BE2877A7A50005BC71 /* Color+Extensions.swift */; };
+		49CB10C12877A82F0005BC71 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB10C02877A82F0005BC71 /* AppTabView.swift */; };
+		49CB10C32877A8780005BC71 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB10C22877A8780005BC71 /* LocationMapView.swift */; };
+		49CB10C52877A8A70005BC71 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB10C42877A8A70005BC71 /* LocationListView.swift */; };
+		49CB10C72877A8B50005BC71 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CB10C62877A8B50005BC71 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		49CB10B32877A4730005BC71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49CB10BA2877A5820005BC71 /* DubDubGrub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DubDubGrub.entitlements; sourceTree = "<group>"; };
 		49CB10BC2877A5B50005BC71 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		49CB10BE2877A7A50005BC71 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		49CB10C02877A82F0005BC71 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		49CB10C22877A8780005BC71 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
+		49CB10C42877A8A70005BC71 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		49CB10C62877A8B50005BC71 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,11 @@
 				49CB10AE2877A4710005BC71 /* ContentView.swift */,
 				49CB10B02877A4730005BC71 /* Assets.xcassets */,
 				49CB10B22877A4730005BC71 /* Preview Content */,
+				49CB10BE2877A7A50005BC71 /* Color+Extensions.swift */,
+				49CB10C02877A82F0005BC71 /* AppTabView.swift */,
+				49CB10C22877A8780005BC71 /* LocationMapView.swift */,
+				49CB10C42877A8A70005BC71 /* LocationListView.swift */,
+				49CB10C62877A8B50005BC71 /* ProfileView.swift */,
 			);
 			path = DubDubGrub;
 			sourceTree = "<group>";
@@ -152,7 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				49CB10AF2877A4710005BC71 /* ContentView.swift in Sources */,
+				49CB10C72877A8B50005BC71 /* ProfileView.swift in Sources */,
 				49CB10AD2877A4710005BC71 /* DubDubGrubApp.swift in Sources */,
+				49CB10C32877A8780005BC71 /* LocationMapView.swift in Sources */,
+				49CB10C52877A8A70005BC71 /* LocationListView.swift in Sources */,
+				49CB10C12877A82F0005BC71 /* AppTabView.swift in Sources */,
+				49CB10BF2877A7A50005BC71 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
